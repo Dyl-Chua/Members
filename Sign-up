@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+            crossorigin="anonymous">
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-sm-6 mx-auto">
+                <form method="POST" action="/validation">
+                    <div class="mb-3">
+                        <label for="name" class="form-label"><p style="color:black;">Name</p></label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter Full Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" size=50% class="form-label"><p style="color:black;">Password</p></label>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="re_password" size=50% class="form-label"><p style="color:black;">Re-enter Password</p></label>
+                        <input type="password" szie=50% class="form-control" id="re_password" placeholder="Re-enter Password" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="address_1" size=50% class="form-label"><p style="color:black;">Delivery Address</p></label>
+                        <input type="text" class="form-control" name="address_1" id="address_1" placeholder="Kampong">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" size=50% name="address_2" id="address_2" placeholder="Jalan">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" size=50%  name="address_3" id="address_3" placeholder="Simpang">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" size=50% name="address_4" id="address_4" placeholder="House Number/Unit Number">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contact_1" size=50% class="form-label"><p style="color:black;">Contact Number</p></label>
+                        <input type="text" class="form-control" name="contact_1" id="contact_1" placeholder="+673 XXX XXXX">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contact_2" class="form-label"><p style="color:black;">Additional Contact Number</p></label>
+                        <input type="text" size=50% class="form-control" name="contact_2" id="contact_2" placeholder="+673 XXX XXXX">
+                    </div>
+
+                   <img src="https://scontent.fbwn1-1.fna.fbcdn.net/v/t1.6435-9/p206x206/82479924_103629857841910_6958602255159263232_n.png?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=eosIwnci9bEAX-nEv5J&_nc_ht=scontent.fbwn1-1.fna&oh=148a767c2aca02ad3ee508228cd39646&oe=617400E8" alt="Trulli" width="250" height="250">
+                    <div class="mb-3">
+                        <label for="bruhims" size=50% class="form-label"><p style="color:black;">Bru-HIMs Number</p></label>
+                        <input type="text" size=50% class="form-control" name="bruhims" id="bruhims" placeholder="BNXXXXXXXX">
+                    </div>
+                    
+                    <div class="form-check my-3">
+                        <p style="color:black;">Are you a paying patient?</p>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" size=50% type="radio" name="radioMOH" id="radioYes" value="Yes">
+                        <label class="form-check-label" size=50% for="radioYes"><p style="color:black;">Yes</p></label>
+                    </div>
+                    
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" size=50% type="radio" name="radioMOH" id="radioNo" value="No">
+                        <label class="form-check-label" size=50% for="radioNo"><p style="color:black;">No</label>
+                    </div>
+
+                    <label><h3>HTML Image</h3>
+<img src="https://www.jpmcbrunei.com/wp-content/uploads/2021/04/JPMC-Logo-full.svg" alt="Trulli" width="250" height="100"></label>
+                    <div class="mb-3">
+                        <label for="jpmc" size=50% class="form-label"><p style="color:black;">Patient Number</p></label>
+                        <input type="text" size=50% class="form-control" name="jpmc" id="jpmc">
+                    </div>
+
+                    <div class="form-check my-3">
+                        <p style="color:black;">Are you a paying patient?</p>                    
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" size=50% type="radio" name="radioJPMC" id="radioYes_1" value="Yes">
+                        <label class="form-check-label" size=50% for="radioYes_1"><p style="color:black;">Yes</p></label>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" size=50% type="radio" name="radioJPMC" id="radioNo_1" value="No">
+                        <label class="form-check-label" size=50% for="radioNo_1"><p style="color:black;">No</p></label>
+                    </div>
+
+                    <h4>HTML Image</h4>
+<img src="https://scontent.fbwn1-1.fna.fbcdn.net/v/t1.6435-9/72285022_109847460427968_5458165669503696896_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=973b4a&_nc_ohc=cFaHrWTeFeQAX-IU7-b&_nc_ht=scontent.fbwn1-1.fna&oh=2699ee6289c6026a24de79904228fe4b&oe=61758784" alt="Trulli" width="250" height="250">
+                    <div class="mb-3">
+                        <label for="panaga" size=50% class="form-label"><p style="color:black;">Patient Number</p></label>
+                        <input type="text" size=50% class="form-control" name="panaga" id="panaga">
+                    </div>
+
+                    <div class="form-check my-3">
+                        <p style="color:black;">Are you a paying patient?</p>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" size=50% type="radio" name="radioPHC" id="radioYes_2" value="Yes">
+                        <label class="form-check-label" size=50% for="radioYes_2"><p style ="color:black;">Yes</p></label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" size=50% type="radio" name="radioPHC" id="radioNo_2" value="No">
+                        <label class="form-check-label" size=50% for="radioNo_2"><p style="color:black;">No</p></label>
+                    </div>
+
+                    <button type="submit" class="btn btn-info mt-3">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous"></script>
+</html>
